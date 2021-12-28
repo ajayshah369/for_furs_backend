@@ -1,0 +1,15 @@
+extends base
+
+block content
+  #body
+    p Your ForFurs verification code is:
+    div(style='\
+    border: 3px solid black;\
+    padding: 10px;\
+    width: fit-content;\
+    border-radius: 8px;\
+    font-size: 24px;\
+    letter-spacing: 2px;\
+    font-weight: bold;\
+    ')
+      | #{otp}

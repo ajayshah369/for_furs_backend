@@ -1,0 +1,10 @@
+**/**testing/**
+**/testing**.**
+**/node_modules/**
+**.pem
+google-cloud-service-key.json
+create_super_admin.js
+.env
+yarn.lock
+.gcloudignore
+app.yaml
