@@ -15,7 +15,7 @@ const generateOtp = () => {
 		return generateOtp();
 	}
 
-	return '123456';
+	return otp.toString();
 };
 
 const schema = new mongoose.Schema({
