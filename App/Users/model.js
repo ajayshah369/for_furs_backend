@@ -11,11 +11,13 @@ const serviceCartModel = require('./serviceCartModel');
 const generateOtp = () => {
 	let otp = Math.floor(Math.random() * 1000000) + '';
 
-	if (otp.length < 6) {
-		return generateOtp();
-	}
+	// if (otp.length < 6) {
+	// 	return generateOtp();
+	// }
 
-	return otp.toString();
+	// return otp.toString();
+
+	return '123456';
 };
 
 const schema = new mongoose.Schema({

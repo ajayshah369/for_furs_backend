@@ -31,14 +31,14 @@ const schema = new mongoose.Schema({
 		type: String,
 		required: true,
 		default:
-			'https://storage.googleapis.com/for_furs_cloud_storage/for_furs/products/products/product.png',
+			'https://storage.googleapis.com/for_furs/for_furs/products/products/product.png',
 	},
 	images: {
 		type: [String],
 		default: [
-			'https://storage.googleapis.com/for_furs_cloud_storage/for_furs/products/products/images.jpg',
-			'https://storage.googleapis.com/for_furs_cloud_storage/for_furs/products/products/images.jpg',
-			'https://storage.googleapis.com/for_furs_cloud_storage/for_furs/products/products/images.jpg',
+			'https://storage.googleapis.com/for_furs/for_furs/products/products/images.jpg',
+			'https://storage.googleapis.com/for_furs/for_furs/products/products/images.jpg',
+			'https://storage.googleapis.com/for_furs/for_furs/products/products/images.jpg',
 		],
 		select: false,
 	},
